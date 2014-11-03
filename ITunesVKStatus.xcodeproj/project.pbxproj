@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC72B1AF1A082D27001FF478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC72B1AE1A082D27001FF478 /* main.m */; };
+		EC72B1B21A082D27001FF478 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC72B1B11A082D27001FF478 /* AppDelegate.m */; };
+		EC72B1B41A082D27001FF478 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC72B1B31A082D27001FF478 /* Images.xcassets */; };
+		EC72B1B71A082D27001FF478 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC72B1B51A082D27001FF478 /* MainMenu.xib */; };
+		EC72B1C31A082D27001FF478 /* ITunesVKStatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC72B1C21A082D27001FF478 /* ITunesVKStatusTests.m */; };
+		EC72B1CD1A08311C001FF478 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC72B1CC1A08311C001FF478 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC72B1BD1A082D27001FF478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC72B1A11A082D27001FF478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC72B1A81A082D27001FF478;
+			remoteInfo = ITunesVKStatus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC72B1A91A082D27001FF478 /* ITunesVKStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITunesVKStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC72B1AD1A082D27001FF478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC72B1AE1A082D27001FF478 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC72B1B01A082D27001FF478 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC72B1B11A082D27001FF478 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC72B1B31A082D27001FF478 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC72B1B61A082D27001FF478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC72B1BC1A082D27001FF478 /* ITunesVKStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITunesVKStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC72B1C11A082D27001FF478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC72B1C21A082D27001FF478 /* ITunesVKStatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesVKStatusTests.m; sourceTree = "<group>"; };
+		EC72B1CC1A08311C001FF478 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC72B1A61A082D27001FF478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC72B1CD1A08311C001FF478 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC72B1B91A082D27001FF478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC72B1A01A082D27001FF478 = {
+			isa = PBXGroup;
+			children = (
+				EC72B1CC1A08311C001FF478 /* WebKit.framework */,
+				EC72B1AB1A082D27001FF478 /* ITunesVKStatus */,
+				EC72B1BF1A082D27001FF478 /* ITunesVKStatusTests */,
+				EC72B1AA1A082D27001FF478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC72B1AA1A082D27001FF478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC72B1A91A082D27001FF478 /* ITunesVKStatus.app */,
+				EC72B1BC1A082D27001FF478 /* ITunesVKStatusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC72B1AB1A082D27001FF478 /* ITunesVKStatus */ = {
+			isa = PBXGroup;
+			children = (
+				EC72B1B01A082D27001FF478 /* AppDelegate.h */,
+				EC72B1B11A082D27001FF478 /* AppDelegate.m */,
+				EC72B1B31A082D27001FF478 /* Images.xcassets */,
+				EC72B1B51A082D27001FF478 /* MainMenu.xib */,
+				EC72B1AC1A082D27001FF478 /* Supporting Files */,
+			);
+			path = ITunesVKStatus;
+			sourceTree = "<group>";
+		};
+		EC72B1AC1A082D27001FF478 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC72B1AD1A082D27001FF478 /* Info.plist */,
+				EC72B1AE1A082D27001FF478 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC72B1BF1A082D27001FF478 /* ITunesVKStatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC72B1C21A082D27001FF478 /* ITunesVKStatusTests.m */,
+				EC72B1C01A082D27001FF478 /* Supporting Files */,
+			);
+			path = ITunesVKStatusTests;
+			sourceTree = "<group>";
+		};
+		EC72B1C01A082D27001FF478 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC72B1C11A082D27001FF478 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC72B1A81A082D27001FF478 /* ITunesVKStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC72B1C61A082D27001FF478 /* Build configuration list for PBXNativeTarget "ITunesVKStatus" */;
+			buildPhases = (
+				EC72B1A51A082D27001FF478 /* Sources */,
+				EC72B1A61A082D27001FF478 /* Frameworks */,
+				EC72B1A71A082D27001FF478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITunesVKStatus;
+			productName = ITunesVKStatus;
+			productReference = EC72B1A91A082D27001FF478 /* ITunesVKStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC72B1BB1A082D27001FF478 /* ITunesVKStatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC72B1C91A082D27001FF478 /* Build configuration list for PBXNativeTarget "ITunesVKStatusTests" */;
+			buildPhases = (
+				EC72B1B81A082D27001FF478 /* Sources */,
+				EC72B1B91A082D27001FF478 /* Frameworks */,
+				EC72B1BA1A082D27001FF478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC72B1BE1A082D27001FF478 /* PBXTargetDependency */,
+			);
+			name = ITunesVKStatusTests;
+			productName = ITunesVKStatusTests;
+			productReference = EC72B1BC1A082D27001FF478 /* ITunesVKStatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC72B1A11A082D27001FF478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mikolaytis Sergey";
+				TargetAttributes = {
+					EC72B1A81A082D27001FF478 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EC72B1BB1A082D27001FF478 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EC72B1A81A082D27001FF478;
+					};
+				};
+			};
+			buildConfigurationList = EC72B1A41A082D27001FF478 /* Build configuration list for PBXProject "ITunesVKStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC72B1A01A082D27001FF478;
+			productRefGroup = EC72B1AA1A082D27001FF478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC72B1A81A082D27001FF478 /* ITunesVKStatus */,
+				EC72B1BB1A082D27001FF478 /* ITunesVKStatusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC72B1A71A082D27001FF478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC72B1B41A082D27001FF478 /* Images.xcassets in Resources */,
+				EC72B1B71A082D27001FF478 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC72B1BA1A082D27001FF478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC72B1A51A082D27001FF478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC72B1B21A082D27001FF478 /* AppDelegate.m in Sources */,
+				EC72B1AF1A082D27001FF478 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC72B1B81A082D27001FF478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC72B1C31A082D27001FF478 /* ITunesVKStatusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC72B1BE1A082D27001FF478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC72B1A81A082D27001FF478 /* ITunesVKStatus */;
+			targetProxy = EC72B1BD1A082D27001FF478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC72B1B51A082D27001FF478 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC72B1B61A082D27001FF478 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC72B1C41A082D27001FF478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC72B1C51A082D27001FF478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC72B1C71A082D27001FF478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ITunesVKStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC72B1C81A082D27001FF478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ITunesVKStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC72B1CA1A082D27001FF478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ITunesVKStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITunesVKStatus.app/Contents/MacOS/ITunesVKStatus";
+			};
+			name = Debug;
+		};
+		EC72B1CB1A082D27001FF478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ITunesVKStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITunesVKStatus.app/Contents/MacOS/ITunesVKStatus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC72B1A41A082D27001FF478 /* Build configuration list for PBXProject "ITunesVKStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC72B1C41A082D27001FF478 /* Debug */,
+				EC72B1C51A082D27001FF478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC72B1C61A082D27001FF478 /* Build configuration list for PBXNativeTarget "ITunesVKStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC72B1C71A082D27001FF478 /* Debug */,
+				EC72B1C81A082D27001FF478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC72B1C91A082D27001FF478 /* Build configuration list for PBXNativeTarget "ITunesVKStatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC72B1CA1A082D27001FF478 /* Debug */,
+				EC72B1CB1A082D27001FF478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC72B1A11A082D27001FF478 /* Project object */;
+}
